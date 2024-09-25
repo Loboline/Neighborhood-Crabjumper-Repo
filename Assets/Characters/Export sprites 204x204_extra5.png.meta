@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 49ac5c5234bd07b4989df23705548e39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4209946954393965307
+    second: Export sprites 204x204_extra5_0
+  - first:
+      213: -3441022892914743144
+    second: Export sprites 204x204_extra5_1
+  - first:
+      213: 7833917555129752192
+    second: Export sprites 204x204_extra5_2
+  - first:
+      213: 900756329339508607
+    second: Export sprites 204x204_extra5_3
+  - first:
+      213: 7284001206302240499
+    second: Export sprites 204x204_extra5_4
+  - first:
+      213: -3873852118837066505
+    second: Export sprites 204x204_extra5_5
+  - first:
+      213: 4537180462576822999
+    second: Export sprites 204x204_extra5_6
+  - first:
+      213: 8400033067976634499
+    second: Export sprites 204x204_extra5_7
+  - first:
+      213: 7564531321099671587
+    second: Export sprites 204x204_extra5_8
+  - first:
+      213: -3019091132795991349
+    second: Export sprites 204x204_extra5_9
+  - first:
+      213: 8102636603621177350
+    second: Export sprites 204x204_extra5_10
+  - first:
+      213: -6790737619302161149
+    second: Export sprites 204x204_extra5_11
+  - first:
+      213: 6110422344693226736
+    second: Export sprites 204x204_extra5_12
+  - first:
+      213: 4178753063795584931
+    second: Export sprites 204x204_extra5_13
+  - first:
+      213: -8375333420018579766
+    second: Export sprites 204x204_extra5_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 204
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2d3e3237cbc6a30800000000000000
+      internalID: 4209946954393965307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 832
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89864d309e70f30d0800000000000000
+      internalID: -3441022892914743144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 832
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a9431b28aa7bc60800000000000000
+      internalID: 7833917555129752192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_3
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 832
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77577feb11208c00800000000000000
+      internalID: 900756329339508607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_4
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe692d3188f51560800000000000000
+      internalID: 7284001206302240499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f48250c5005d3ac0800000000000000
+      internalID: -3873852118837066505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_6
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 624
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daebb9779d47fe30800000000000000
+      internalID: 4537180462576822999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 624
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380384ee199e29470800000000000000
+      internalID: 8400033067976634499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_8
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 624
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328567e682d9af860800000000000000
+      internalID: 7564531321099671587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_9
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 624
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcac92d4c980a16d0800000000000000
+      internalID: -3019091132795991349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608fae6bf09527070800000000000000
+      internalID: 8102636603621177350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305ec963d1472c1a0800000000000000
+      internalID: -6790737619302161149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc9c038fb49cc450800000000000000
+      internalID: 6110422344693226736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af6c9385c9edf930800000000000000
+      internalID: 4178753063795584931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export sprites 204x204_extra5_14
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6c55001a6d4cb80800000000000000
+      internalID: -8375333420018579766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Export sprites 204x204_extra5_10: 8102636603621177350
+      Export sprites 204x204_extra5_14: -8375333420018579766
+      Export sprites 204x204_extra5_7: 8400033067976634499
+      Export sprites 204x204_extra5_6: 4537180462576822999
+      Export sprites 204x204_extra5_0: 4209946954393965307
+      Export sprites 204x204_extra5_3: 900756329339508607
+      Export sprites 204x204_extra5_2: 7833917555129752192
+      Export sprites 204x204_extra5_4: 7284001206302240499
+      Export sprites 204x204_extra5_9: -3019091132795991349
+      Export sprites 204x204_extra5_8: 7564531321099671587
+      Export sprites 204x204_extra5_11: -6790737619302161149
+      Export sprites 204x204_extra5_13: 4178753063795584931
+      Export sprites 204x204_extra5_5: -3873852118837066505
+      Export sprites 204x204_extra5_12: 6110422344693226736
+      Export sprites 204x204_extra5_1: -3441022892914743144
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
