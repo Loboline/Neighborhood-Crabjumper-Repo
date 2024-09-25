@@ -13,34 +13,38 @@ using UnityEditor;
 [DefaultExecutionOrder(1000)]
 public class MenuUIHandler : MonoBehaviour
 {
-    public TMP_InputField NamePicker; //drag and drop element
-    static string PlayerName;
+    public TMP_InputField NamePicker; //drag och droppa Input-fält till denna i Inspectorn
+    static string currentName; //En variabel för att hålla namnet i textfältet
 
-    public void StartNew()
+    void Start()
     {
-        getName();
-        MainManager.Instance.playerName = PlayerName;
-        SceneManager.LoadScene(1);
+        MainManager.Instance.LoadName();
+        NamePicker.text = MainManager.Instance.playerName;
+    }
+    public void StartNew() //När vi trycker på start-knappen händer detta:
+    {
+        GetName();//Mthoden tar namnet som finns i InputField (Namepicker)
+        MainManager.Instance.playerName = currentName; //Fyller MainManagers var playerName med innehållet från currentName
+        SceneManager.LoadScene(1); //Byter scen till scen 1
     }
 
     public void Remember()
     {
-        Debug.Log(MainManager.Instance.playerName);
+        Debug.Log(MainManager.Instance.playerName); //En testmethod för att kolla att MainManager har sparat namnet
     }
 
     public void Exit()
     {
         MainManager.Instance.SaveName(); //Sparar den sist valda namnet i MainManager.
 #if UNITY_EDITOR
-        EditorApplication.ExitPlaymode();
+        EditorApplication.ExitPlaymode(); //Stänger spelet om det körs i Unity editor
 #else
-        Application.Quit(); // original code to quit Unity player
+        Application.Quit(); //Stänger spelet om det körs i en build
 #endif
     }
 
-    public void getName()
+    public void GetName() //Hämtar namnet från Gameobjektet som länkats till var NamePicker
     {
-        PlayerName = NamePicker.text;
-        Debug.Log(PlayerName);
+            currentName = NamePicker.text; //Fyller var currentName med innehållet från textrutan
     }
 }

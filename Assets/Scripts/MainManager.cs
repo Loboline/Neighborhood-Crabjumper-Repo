@@ -48,7 +48,7 @@ public class MainManager : MonoBehaviour
         {
             string json = File.ReadAllText(path); //Läser in texten från filen på platsen och gör den till en string som fyller json-variabeln
             SaveData data = JsonUtility.FromJson<SaveData>(json); //Konverterar stringen från JSON-text till SaveData instance...
-            playerName = data.playerName; //Slutligen sätter den TeamColor till datan som hämtades
+            playerName = data.playerName; //Slutligen sätter den playerName till datan som hämtades
         }
     }
 }

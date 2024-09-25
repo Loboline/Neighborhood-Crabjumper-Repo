@@ -81,6 +81,7 @@ public class Hero : MonoBehaviour
             GameOver.SetActive(true);
             RestartButton.SetActive(true);
             gameObject.SetActive(false); //hänvisar till hjälten som scriptet förhoppningsvis sitter på
+            MainManager.Instance.SaveName(); //Sparar den sist valda namnet i MainManager.
         }
     }
 }
