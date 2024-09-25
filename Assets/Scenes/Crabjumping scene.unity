@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 367780834}
   - component: {fileID: 367780836}
   m_Layer: 0
-  m_Name: Text
+  m_Name: JumpText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32abeaba67d4912448e601dcffcd61f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthText: {fileID: 367780834}
+  jumpText: {fileID: 367780834}
 --- !u!1 &513535168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,7 +1822,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: STARTA OM
+  m_Text: TILL MENY
 --- !u!222 &1578442649
 CanvasRenderer:
   m_ObjectHideFlags: 0
