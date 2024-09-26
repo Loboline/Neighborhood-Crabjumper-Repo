@@ -5,7 +5,7 @@ using UnityEngine.UI; //viktig när man jobbar med UI att ha med denna, annars f
 
 public class JumpDisplay : MonoBehaviour
 {
-    private int jump = 0;
+    public int jump = 0;
     public Text jumpText;
 
     private void Update()

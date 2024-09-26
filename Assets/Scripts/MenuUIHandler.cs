@@ -14,7 +14,7 @@ using UnityEditor;
 public class MenuUIHandler : MonoBehaviour
 {
     public TMP_InputField NamePicker; //drag och droppa Input-fält till denna i Inspectorn
-    static string currentName; //En variabel för att hålla namnet i textfältet
+    public string currentName; //En variabel för att hålla namnet i textfältet
 
     void Start()
     {
@@ -30,12 +30,12 @@ public class MenuUIHandler : MonoBehaviour
 
     public void Remember()
     {
-        Debug.Log(MainManager.Instance.playerName); //En testmethod för att kolla att MainManager har sparat namnet
+        MainManager.Instance.UpdateHighscores();
     }
 
     public void Exit()
     {
-        MainManager.Instance.SaveName(); //Sparar den sist valda namnet i MainManager.
+        MainManager.Instance.Save(); //Sparar den sist valda namnet i MainManager.
 #if UNITY_EDITOR
         EditorApplication.ExitPlaymode(); //Stänger spelet om det körs i Unity editor
 #else
