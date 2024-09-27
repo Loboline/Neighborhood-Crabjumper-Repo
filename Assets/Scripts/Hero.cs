@@ -10,12 +10,20 @@ public class Hero : MonoBehaviour
     public Animator animator;
     public bool isJumping = true;
     public GameObject GameOver, RestartButton; //Skapar var för Gameobjects
+    public GameObject GaveUp;
+    private bool gameOverChecker;
+
+    private float yMax;
+    private float yMin;
+    private float xMax;
+    private float xMin;
+
+    // Use this for initialization
 
 
-    // Start is called before the first frame update
-
-    void Start()
+        void Start()
     {
+        GaveUp.SetActive(false); //sätter knapp att vara icke aktiva från början (då playern inte är död än)
         GameOver.SetActive(false); //sätter knapp att vara icke aktiva från början (då playern inte är död än)
         RestartButton.SetActive(false); //sätter knapp att vara icke aktiva från början (då playern inte är död än)
     }
@@ -76,6 +84,7 @@ public class Hero : MonoBehaviour
 
     void OnCollisionEnter2D (Collision2D col)
     {
+
         if (col.gameObject.tag.Equals("Crab"))
         {
             GameOver.SetActive(true);
@@ -83,6 +92,15 @@ public class Hero : MonoBehaviour
             gameObject.SetActive(false); //hänvisar till hjälten som scriptet förhoppningsvis sitter på
             MainManager.Instance.CheckHighscore(); //Sparar den sist valda namnet i MainManager.
             MainManager.Instance.Save(); //Sparar den sist valda namnet i MainManager.
-        }
+        } else if (col.gameObject.tag.Equals("Home"))
+            {
+
+            GaveUp.SetActive(true);
+            RestartButton.SetActive(true);
+            gameObject.SetActive(false); //hänvisar till hjälten som scriptet förhoppningsvis sitter på
+            MainManager.Instance.CheckHighscore(); //Sparar den sist valda namnet i MainManager.
+            MainManager.Instance.Save(); //Sparar den sist valda namnet i MainManager.
+            }
     }
+
 }

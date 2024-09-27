@@ -7,11 +7,14 @@ public class JumpDisplay : MonoBehaviour
 {
     public int jump = 0;
     public Text jumpText;
+    private Hero gameOverChecker;
 
     private void Update()
     {
+        gameOverChecker = GameObject.Find("Hero").GetComponent<Hero>();
+
         jumpText.text = jump.ToString(); //man kan också skriva tex healthText.text = "Health :" + health;
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || gameOverChecker.GameOver != true)
         {
             jump++;
         }

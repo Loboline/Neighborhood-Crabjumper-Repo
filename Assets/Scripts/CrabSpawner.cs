@@ -17,10 +17,10 @@ public class CrabSpawner : MonoBehaviour
 
     IEnumerator EnemyDrop()
 {
-    while (enemyCount < 100)
+    while (enemyCount < 50)
     {
-        xPos = Random.Range(10, 11);
-        yPos = Random.Range(-2, 4);
+        xPos = Random.Range(-30, -29);
+        yPos = Random.Range(3, 5);
         Instantiate(Crab, new Vector2(xPos, yPos), Quaternion.identity);
         yield return new WaitForSeconds(10f);
         enemyCount += 1;

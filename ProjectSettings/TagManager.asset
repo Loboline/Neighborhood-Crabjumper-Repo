@@ -6,6 +6,7 @@ TagManager:
   tags:
   - leftWall
   - Crab
+  - Home
   layers:
   - Default
   - TransparentFX
